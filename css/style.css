@@ -1,0 +1,161 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+.main2{
+display: flex;
+justify-content: space-evenly;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+/* ################################################# */
+/* task 4 */
+.big{
+    background-repeat: no-repeat;
+    height: 500px;
+width:700px ;
+background-image: url(/imagse/1.jpeg);
+}
+
+@media (max-width: 600px){
+.big{
+background-image: url(/imagse/6.jpeg);
+width: 200px;
+height: 200px;
+margin: 10px auto;
+}
+}
+/* ################################################# */
+/* task 5 */
+
+.container-fluid ul{
+    color: blue;
+  position: absolute;
+  margin: 40px;
+  margin-left: 30px;
+
+}
+.main5{
+    background-color: rgb(209, 198, 198);
+margin-left: 90px;
+
+
+
+}
+.main5 button{
+background-color: blue;
+color: white;
+border: 0;
+width: 100px;
+border-radius:3px;
+padding: 7px;
+}
+/* ################################################# */
+
+/* task 6 */
+/* ################################################# */
+
+
+.top{
+    padding-top: 3.5rem;
+  }
+  
+
+  .main{
+    display: flex;
+gap: 80px
+;
+}
+.yellow{
+    background-color: #fff3cd;
+    color: #736635;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* ################################################# */
+/* task 8 */
+ .main8{
+display: flex;
+
+ }
+.left{
+background-color: #2196f3;
+height: 50px;
+}
+
+.mid{
+background-color: #f1f1f1;
+flex-grow: 1;
+height: 50px;
+}
+.right{
+background-color: #04aa6d;
+height: 50px;
+}
+
+@media (max-width: 600px){
+    
+.main8{
+  display: flex;
+  flex-direction: column;
+}
+   
+
+
+
+}
+
+/* ################################################# */
+/* task 11 */
+.main11{
+  background-color: #cdffcc;
+  height: 700px;
+border-radius: 20px;
+}
+.main112{
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.flex{
+
+display: grid;
+grid-template-columns: repeat(3,100px);
+gap: 20px;
+
+}
+.flex img{
+width: 100px;
+height: 100px;
+}
+
+.cat{
+background-color: black;
+font-size: x-small;
+text-align: center;
+width: 108px;
+height: 120px;
+color: white;
+}
+
+@media (max-width: 600px){
+  .flex{
+    display: grid;
+    grid-template-columns: repeat(1,100px);
+    gap: 20px;
+    
+    }
+    .main11{
+      background-color: white;
+    }
+    .main11 p{
+      font-size: 9px;
+      width: 150px;
+    }
+}
+
+
